@@ -1,0 +1,58 @@
+.container {
+  text-align: center;
+  margin: 4rem auto;
+  width: 50%;
+}
+
+/* accordion styles */
+#accordion button {
+  margin-left: -4px;
+  border: 1px solid black;
+}
+
+#accordion button:nth-child(2) {
+  border-right: 0;
+  border-left: 0;
+}
+
+#accordion button.active {
+  transition-property: color background-color;
+  transition-duration: 1s;
+  background-color: black;
+  color: white;
+}
+
+.percent-title {
+  font-size: 50px;
+}
+
+.item-name {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 887px) {
+  #accordion button {
+    padding: 0.5rem 1rem;
+  }
+  .cell {
+    padding: 0.5rem;
+  }
+}
+
+/* Safari media */
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    #accordion button {
+      margin-left: -6px;
+      border: 1px solid black;
+    }
+  }
+}
+@media screen and (min-color-index: 0) and(-webkit-min-device-pixel-ratio:0) {
+  @media {
+    #accordion button {
+      margin-left: -6px;
+      border: 1px solid black;
+    }
+  }
+}
