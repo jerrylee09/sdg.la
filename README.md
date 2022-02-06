@@ -1,4 +1,4 @@
-## SDGA.LA want me to build them an accrodion
+## SDGA.LA want me to build them an accordion
 
 ## Let me know if this work for you ;)
 
